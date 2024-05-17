@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../assets/bar.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    background-color: rgb(220, 156, 184, 0.9);
+    border-radius: 12px;
+    align-items: center;
+    margin: 10%;
+    padding-bottom: 30px;
+    height: 90%;
+}
+
+#div-inputs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#container #file{
+    display: none;
+}
+
+.div-collumn-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+label
+{
+    padding: 10px;
+}
+
+#container input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 100px;
+    border-color: lightslategray;
+    padding-left: 20px;
+}
+
+#container select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 420px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 100px;
+    border-color: lightslategray;
+    padding-left: 20px;
+}
+
+#ask-log
+{
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(220, 156, 184, 0.9);
+    border-radius: 12px;
+    align-items: center;
+    margin: 4%;
+    padding-bottom: 30px;
+    height: 90%;
+}
+
+#line
+{
+    border-style: solid;
+    border-color: rgb(128, 128, 128, 0.4);
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}

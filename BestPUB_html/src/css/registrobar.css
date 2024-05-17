@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    background-color: #DC9CB8;
+    border-radius: 12px;
+    align-items: center;
+    margin: 4%;
+    padding-bottom: 30px;
+    height: 90%;
+}
+
+#foto-perfil-div{
+    background-color: rgb(220, 156, 184, 0) ;
+    width: 220px;
+    height: 240px;
+    align-items: center;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#picture{
+    align-items: center;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    margin: auto;
+    display: flex;
+}
+
+#div-inputs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container #file{
+    display: none;
+}
+
+#container #uploadBtn{
+    background-color: rgb(173, 60, 110,0.8);
+    width: 150px;
+    border-radius: 20px;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-part{
+    align-items: center;
+    margin: auto;
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+    margin-left: 9px;
+}
+
+#container input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 100px;
+    border-color: lightslategray;
+    padding-left: 20px;
+}
+
+#container{
+    display: block;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;    
+}
+
+#container select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 420px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 100px;
+    border-color: lightslategray;
+    padding-left: 20px;
+}
+
+#delete, #mostrar,#edit{
+    display: inline-flex;
+}
+span {
+    color: red;
+}
+
+button, #uploadBtn {
+    margin-top: 40px;
+    display: flex;
+    width: 10%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #AD3C6E;
+    border-radius: 20px;
+    border-style: none;
+    margin: auto;
+    font-size: 20px;
+}
+
+.div-collumn-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+#diff{
+    padding: 20px;
+}
+.div-collumn-checkbox{
+    display: inline-block;
+    flex-direction: column;
+}

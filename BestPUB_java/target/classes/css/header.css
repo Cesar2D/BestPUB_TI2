@@ -1,0 +1,98 @@
+/* Desktop Resolution */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #AD3C6E;
+    max-height: 80px;
+}
+
+#div-logo {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    max-height: 60%;
+}
+
+#div-user {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    padding-right: 20px;
+}
+
+#div-mobile-user {
+    display: none;
+}
+
+#user-name {
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+#img-user {
+    margin-left: 10px;
+    max-height: 60px;
+    border-radius: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    #user-name {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #img-user {
+        display: none;
+    }
+
+    #div-mobile-user {
+        display: inline;
+        position: absolute;
+        right: 0;
+        padding-top: 22px;
+        padding-right: 10px;
+        color: #fff;
+    }
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    background-color: #AD3C6E;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    top: 100%; 
+    left: 0;
+}
+
+.dropdown.active .dropdown-content {
+    display: block;
+}
+
+/* Estilo para os botões ficarem um abaixo do outro */
+.dropdown-content button {
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 5px; /* Espaçamento entre os botões */
+}

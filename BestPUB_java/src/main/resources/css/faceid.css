@@ -1,0 +1,96 @@
+
+.image-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.image-container {
+    width: 70%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.image-description {
+    padding: 10px;
+    width: 25%; 
+    background-color: #AD3C6E;
+    border-radius: 8px;
+}
+
+.image-description h2 {
+    padding: 5px;
+    margin-top: 0; 
+}
+
+.d-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; 
+}
+
+.d-container {
+    width: 70%; 
+}
+
+
+
+
+.d-description {
+    display: contents;
+    padding: 10px;
+    width: 25%; 
+    background-color: #AD3C6E;
+    border-radius: 8px;
+}
+
+
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    width: 25%;
+    gap: 10px; 
+}
+
+.buttons button {
+    padding: 25px 20px; 
+    border: none;
+    background-color: #AD3C6E;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background-color: #8F2950;
+}
+
+.i{
+    border-radius: 50px;
+    margin: 5px;
+    padding: 10px;
+    background-color: #AD3C6E;
+}
+
+.inputs-and-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.input-fields {
+    display: flex;
+}
+
+.input-fields input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

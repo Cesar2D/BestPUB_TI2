@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <script src="../js/home.js"></script>
+
+    <link rel="stylesheet" href="../css/login.css">
+    
+</head>
+
+<body>
+    <header>
+        <a id="div-logo" href="home.html">
+            <img src="../assets/logo.png" alt="Logo" id="logo"></img>
+        </a>
+
+
+
+        <div class="dropdown" id="div-user" onclick="toggleDropdown('div-user')">
+            <p id="user-name">Usuario X</p>
+            <img id="img-user" src="../assets/default_2.png">
+            <div class="dropdown-content">
+                <a href="registrobar.html"><button onclick="action1()">Registro bar</button></a>
+                <a href="registrocliente.html"><button onclick="action2()">Registro cliente</button></a>
+                <a href="donobar.html"> <button onclick="action3()">Pag. dono do bar</button></a>
+            </div>
+        </div>
+    
+       
+    
+    
+
+
+    </header>
+    
+    <div id="container">
+        <h1>Login</h1>
+        <div id="div-inputs">
+            <div class="div-collumn-inputs">
+                <label for="email">Insira o seu email: </label>
+                    <input type="text" id="email" placeholder="usuario16@xmail.com" autocomplete="email"><br>
+                <label for="senha">Insira sua senha: </label>
+                    <input type="text" id="senha" placeholder=" Modelo: Rua dos Guajajaras..."><br>
+                    <label for="TipoConta"> Insira o tipo da sua conta:</label>
+                <select id="TipoConta" name="TipoConta">    
+                    <option value="" disabled selected>Selecione uma opção...</option>
+                    <option value="cliente">Cliente</option>
+                    <option value="estabelecimento">Estabelecimento</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div id="line"></div>
+    <div id="ask-log">
+        <p> Quer registrar-se como cliente? <a href="registrocliente.html">Registre-se aqui</a></p><br>
+        <p>ou</p> <br>
+        <p> Quer registrar-se como estabelecimento? <a href="registrobar.html">Registre-se aqui</a></p>
+    </div>
